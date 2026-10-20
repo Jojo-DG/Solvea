@@ -222,7 +222,7 @@ export default function App() {
             )
           )}
 
-          <div className="no-print mt-4 flex flex-wrap items-center gap-3 print:hidden">
+          <div data-imprimer className="no-print mt-4 flex flex-wrap items-center gap-3 print:hidden">
             <button type="button" onClick={() => window.print()} className="rounded-lg bg-solar px-4 py-2.5 text-sm font-semibold text-forest-900 shadow-card hover:bg-solar-400">
               Imprimer / enregistrer en PDF
             </button>
